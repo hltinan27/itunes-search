@@ -8,5 +8,6 @@ target 'itunes-search' do
   # Pods for itunes-search
 	pod 'Alamofire', '~> 5.5'
   	pod 'AlamofireImage', '~> 4.1'
+	pod 'SnapKit', '~> 5.0.0'
 
 end
