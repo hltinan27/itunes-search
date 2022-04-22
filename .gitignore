@@ -90,3 +90,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 itunes-search/Pods/
+
+itunes-search/Podfile.lock
