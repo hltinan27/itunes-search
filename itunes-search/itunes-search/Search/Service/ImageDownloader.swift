@@ -44,7 +44,6 @@ final class ImageDownloader {
             
             if let data = try? Data(contentsOf: url) {
                 if let image = UIImage(data: data) {
-                    print("indexxxxxxxxx \(index)")
                     DispatchQueue.main.async {
                         completionHandler(image, true, data.count)
                     }
